@@ -1,0 +1,63 @@
+.cellTableHeader {
+	padding: 3px 0px 3px 10px;
+}
+
+.cellTableFirstColumnHeader {
+
+}
+
+.cellTableLastColumnHeader {
+
+}
+
+.cellTableCell {
+	padding: 3px 10px 3px 10px;
+	overflow: hidden;
+}
+
+.idCell {
+	padding-right: 10px;
+}
+
+.markingCell {
+	text-align: center;
+	padding: 0px 0px 0px 7px;
+}
+
+.bottomBorder {
+	border-style: none !important;
+	border-bottom: 1px solid #808080 !important;
+}
+
+.cellTableEvenRow {
+}
+
+.cellTableEvenRowCell {
+}
+
+.cellTableOddRow {
+}
+
+.cellTableOddRowCell {
+}
+
+.cellTableSelectedRow {
+}
+
+.cellTableSelectedRowCell {
+}
+
+.cellTableHoveredRow {
+}
+
+.cellTableHoveredRowCell {
+}
+
+.cellTableKeyboardSelectedRow {
+}
+
+.cellTableKeyboardSelectedRowCell {
+}
+
+.cellTableKeyboardSelectedCell {
+}

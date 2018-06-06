@@ -1,0 +1,792 @@
+/** Add css rules here for your application. */
+
+body {
+	margin:0; padding:0; text-align:center;
+	font-family: 'Raleway';
+}
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+.center {
+	margin: 0px auto; width: 480px; text-align:left;
+}
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.gwt-Tree {
+	color: #006BA7;
+	font-size: 20px;
+	font-weight: 500;
+	
+    display: block;
+    margin-top: 4px;
+	margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.gwt-TreeNode {
+    
+}
+
+.gwt-TreeNode2 {
+    color: #0081C9;
+    text-shadow: -0.5px 0 #808080, 0 0.5px #808080, 0.5px 0 #808080, 0 -0.5px #808080;
+    cursor: pointer;
+}
+.gwt-TreeNode2A {
+    color: #ff0000;
+    text-shadow: -0.5px 0 #808080, 0 0.5px #808080, 0.5px 0 #808080, 0 -0.5px #808080;
+    cursor: pointer;
+}
+.gwt-TreeNode2H {
+    color: #ffff00;
+    text-shadow: -0.5px 0 #808080, 0 0.5px #808080, 0.5px 0 #808080, 0 -0.5px #808080;
+    cursor: pointer;
+}
+.gwt-TreeNode2O {
+    color: #00ff00;
+    text-shadow: -0.5px 0 #808080, 0 0.5px #808080, 0.5px 0 #808080, 0 -0.5px #808080;
+    cursor: pointer;
+}
+.gwt-TreeNode2M {
+    color: #333333;
+    text-shadow: -0.5px 0 #808080, 0 0.5px #808080, 0.5px 0 #808080, 0 -0.5px #808080;
+    cursor: pointer;
+}
+
+.grayPlaceholder::-webkit-input-placeholder {
+   color: #b4b4b4;
+}
+
+.grayPlaceholder:-moz-placeholder {
+   color: #b4b4b4;  
+}
+
+.grayPlaceholder::-moz-placeholder {  
+   color: #b4b4b4;  
+}
+
+.grayPlaceholder:-ms-input-placeholder {  
+   color: #b4b4b4;  
+}
+
+.panelBackground {
+	margin: 0px auto;
+	background-image: url("res/app_area_bg.png");
+}
+
+.mainBackground {
+	background-size: auto 100%;
+	background-color: #CCCCCC;
+	margin: 0px auto;
+}
+
+.mainBackground2 {
+	background-size: 100% auto;
+	margin: 0px auto;
+	background-repeat: repeat-y;
+	background-image: url("res/background.jpg");
+	background-attachment: fixed;
+}
+
+.headerBackground {
+	background-size: auto 100%;
+	margin: 0px auto;
+	background-repeat: no-repeat;
+	background-image: url("res/header.png");
+	background-color: #006CB5;
+	width: 100%;
+	height: 45px;
+}
+
+.prevNextPanel {
+	background-color: white;
+	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	width: 100%;
+   	height: 95px;
+   	z-index: 1000;
+}
+
+.prevNextButton {
+	background-color: #eaeaea;
+	font-family: 'Raleway';
+	font-size: 50px;
+	font-weight: 500;
+	width: 100%;
+   	height: 95px;
+}
+
+.aho-navigationPanel {
+	width: 100%;
+	height: 100%;
+}
+.aho-navigationImage {
+	width: auto;
+	height: 31px;
+	display: block;
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+}
+.aho-navigationImage:hover {
+	background-color: #0082d9;
+}
+.aho-dropdownmenu {
+	position: absolute;
+	right: 0px;
+}
+.aho-menuItem {
+}
+.gwt-MenuBar-horizontal {
+	cursor: pointer;
+	
+}
+.gwt-MenuBar-horizontal:hover {
+	background-color: #0082d9;
+}
+.gwt-MenuBar-horizontal .gwt-MenuItem {
+	padding: 5px 10px;
+	vertical-align: bottom;
+	color: #000;
+	font-weight: bold;
+	
+}
+.gwt-MenuBar-vertical {
+  margin-top: 0px;
+  margin-left: 0px;
+  background: white;
+  color: #006CB5;
+  font-weight: bold;
+  font-size: 20px;
+}
+.gwt-MenuBar-vertical table {
+  border-collapse: collapse;
+}
+.gwt-MenuBar-vertical .gwt-MenuItem {
+  padding: 2px 40px 2px 1px;
+}
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator {
+  padding: 2px 0px;
+}
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator .menuSeparatorInner {
+  height: 1px;
+  padding: 0px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+.aho-measurementHeaderPanel {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border: none;
+	background-color: #006CB5;
+	width: 100%;
+	height: 53px;
+}
+.aho-measurementHeaderPanel.thin {
+	height: 34px;
+}
+.markingScrollPanel {
+	width: 600px;
+}
+.backSavePanel {
+	width: 100%;
+	height: 53px;
+}
+
+.backButton {
+	width: 24px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: none;
+    vertical-align: middle;
+    color: #006BA7;
+    background-color: transparent;
+    background-image: url("res/leftArrow.svg");
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+
+.backSaveLabel {
+	color: #006BA7;
+	font-size: 20px;
+	margin-top: 18px;
+	margin-bottom: 2px;
+	margin-right: 50px;
+	font-weight: 600;
+	cursor: pointer;
+	width: max-content;
+}
+.backSaveLabel.wide {
+}
+.backSaveLabel.noPointer {
+	cursor: initial;
+}
+
+.smallTextLabel {
+	font-size: 13px;
+}
+
+.markingColumn {
+	background-color: #eaeaea ! important;
+}
+
+.aho-autoExtendingTextArea {
+	color: #006BA7;
+	border: none;
+	font-size: 20px;
+	word-wrap: break-word;
+	overflow: hidden;
+	resize: none;
+	width: 94%;
+	margin-left: 25px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.aho-panel1 {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	border: none;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 100%;
+	height: 53px;
+}
+.aho-panel1.expandable {
+	min-height: 53px;
+	height: auto;
+}
+.aho-panel1.table {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+.aho-panel1.table2 {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+.aho-panel1.closeBottom {
+	box-shadow: 2.5px 4.33px 0px 0px rgba(0, 0, 0, 0.078);
+	margin-bottom: -15px;
+}
+.aho-panel2 {
+	border: none;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width: 100%;
+	height: 43px;
+}
+.aho-panel3 {
+	width: 100%;
+	height: 36px;
+}
+.aho-panel4 {
+	width: 100%;
+}
+.aho-markingBlankPanel {
+	width: 100%;
+	height: 50px;
+}
+.aho-label1 {
+	color: #636363;
+	font-size: 18px;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.aho-label1.sub {
+	padding-top: 10px;
+	padding-left: 50px;
+}
+.aho-label1.alignRight {
+	padding-right: 25px;
+}
+.aho-label1.bold {
+	padding-top: 10px;
+	font-weight: bold;
+}
+.aho-label2 {
+	color: #FFFFFF;
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.aho-label2.thin {
+	padding-left: 20px;
+	padding-top: 6px;
+	font-weight: 500;
+}
+.aho-label3 {
+	color: #636363;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 12px;
+}
+.aho-label3.black {
+	color: black;
+}
+.aho-listItem {
+	color: #006BA7;
+	width: max-content;
+	font-size: 18px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+.aho-markingImg {
+	height: 80%;
+	width: auto;
+	padding-top: 10px;
+}
+.aho-dragImg {
+	height: 80%;
+	width: auto;
+	padding-top: 20%;
+}
+.aho-textbox1 {
+	color: #006BA7;
+	border: none;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 14px;
+	text-align: right;
+	margin-right: 15px;
+}
+.aho-textbox1.small {
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: left;
+	margin-right: 0px;
+	width: 75px;
+}
+.aho-textbox1.medium {
+	font-size: 18px;
+	margin-left: 10px;
+	text-align: left;
+	margin-right: 0px;
+	width: 140px;
+}
+.aho-textbox1.large {
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 14px;
+	width: 340px;
+}
+
+
+
+
+
+
+
+
+
+.fb-label {
+	color: #006BA7;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.fb-label2 {
+	color: #006BA7;
+	font-size: 20px;
+	margin-top: 24px;
+	margin-bottom: 2px;
+	font-weight: 600;
+}
+
+.fb-label3 {
+	color: #006BA7;
+	font-size: 20px;
+}
+
+.fb-textbox {
+	color: #006BA7;
+	border: none;
+	font-size: 14px;
+	text-indent: 26px;
+	text-align: left;
+}
+
+.fb-button-facebook {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #636363;
+	padding-left: 24px;
+	border: none;
+	font-size: 16px;
+	font-family: Raleway SemiBold;
+	text-indent: 60px;
+	text-align: left;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 26px center;
+	background-image: url('res/facebook_icon.png');
+}
+
+.fb-button-google {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #636363;
+	padding-left: 24px;
+	border: none;
+	font-size: 16px;
+	font-family: Raleway SemiBold;
+	text-indent: 60px;
+	text-align: left;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 24px center;
+	background-image: url('res/google_icon.png');
+}
+
+.fb-button-send-link {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #636363;
+	border: none;
+	font-size: 16px;
+	font-family: Raleway SemiBold;
+	text-indent: 20px;
+	text-align: left;
+	background-color: white;
+}
+
+.fb-button-resend {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #636363;
+	padding-left: 24px;
+	border: none;
+	font-size: 16px;
+	font-family: Raleway SemiBold;
+	text-indent: 60px;
+	text-align: left;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 26px center;
+	background-image: url('res/resend_icon.png');
+}
+
+.fb-panel-user {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	border: none;
+	background-color: white;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 100%;
+	height: 53px;
+}
+
+.fb-panel-user-header {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: none;
+	background-color: #006CB5;
+}
+
+.fb-button-settings {
+	color: #636363;
+	border: none;
+	background-color: #006BA7;
+	background-repeat: no-repeat;
+	background-image: url('res/settings_icon.png');
+}
+
+.fb-button-text1 {
+	color: white;
+	border: none;
+	font-size: 14px;
+	background-color: #006BA7;
+}
+
+.fb-button-text2 {
+	color: white;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+	background-color: #006BA7;
+}
+.fb-label4 {
+	color: #828282;
+	font-size: 16px;
+}
+.fb-button-text3 {
+	color: #006BA7;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: Transparent;
+}
+.fb-button-text4 {
+	color: #006BA7;
+	border: none;
+	font-size: 20px;
+	background-color: Transparent;
+}
+.fb-button-plus {
+	color: #636363;
+	border: none;
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('res/plus_icon.png');
+}
+.fb-label5 {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 600;
+}
+.fb-label6 {
+	color: #636363;
+	font-size: 20px;
+}
+.fb-label6.mobile {
+	font-size: 50px;
+}
+.fb-label7 {
+	color: #636363;
+	font-size: 18px;
+}
+.fb-label7.bold {
+	font-weight: bold;
+}
+.fb-label8 {
+	color: #006BA7;
+	font-size: 20px;
+	font-weight: 500;
+}
+.fb-label8.mobile {
+	font-size: 50px;
+}
+.fb-toogle-button {
+	margin: 4px;
+	border: none;
+	background-color: Transparent;
+	outline: 0;
+}
+.fb-label9 {
+	color: #D92525;
+	font-size: 18px;
+	font-weight: 500;
+}
+.fb-label9.mobile {
+	font-size: 48px;
+}
+.fb-button-new-user {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #006BA7;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	border: none;
+	font-size: 16px;
+	font-weight: 500;
+	text-indent: 72px;
+	text-align: left;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 32px center;
+	background-image: url('res/plus_icon.png');
+}
+.fb-button-new-user.mobile {
+	font-size: 50px;
+}
+.fb-button-remove {
+	box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.078);
+	z-index: 8;
+	color: #D92525;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-indent: 17px;
+	text-align: left;
+	background-color: white;
+}
+.fb-button-remove.mobile {
+	font-size: 48px;
+	font-weight: 500;
+}
+.fb-textbox-gray {
+	color: Silver;
+	border: none;
+	font-size: 14px;
+	text-indent: 26px;
+	text-align: left;
+}
+.fb-label10 {
+	color: #D92525;
+	font-size: 16px;
+	font-weight: 600;
+}
+.fb-stackpanel {
+	border: 0px;
+}
+.fb-stackpanel-item {
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+.fb-label11 {
+	color: #006BA7;
+	margin-top: 44px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.fb-combobox {
+	border: 0 !important;  /*Removes border*/
+	webkit-appearance: none;  /*Removes default chrome and safari style*/
+	moz-appearance: none; /* Removes Default Firefox style*/
+	/*background: transparent url("res/drop_down_arrow1.png") no-repeat right center;*/ /*Adds background-image*/
+	/*background-position: 84px 7px;*/  /*Position of the background-image*/
+	width: 100px; /*Width of select dropdown to give space for arrow image*/
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+	text-overflow: "";  /*Removes default arrow from firefox*/
+	
+	/*My custom style for fonts*/
+	color: #006BA7;
+	font-size: 16px;
+	font-family: Raleway;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+.headerBackground {
+	height: 90px;
+}
+.aho-measurementHeaderPanel {
+	box-shadow: 5px 8.66px 10px 0px rgba(0, 0, 0, 0.078);
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: none;
+	background-color: #006CB5;
+	height: 103px;
+}
+.markingScrollPanel {
+	width: 100%;
+}
+.backSavePanel {
+	height: 100px;
+}
+.backButton {
+	width: 64px;
+    height: 60px;
+}
+.backSaveLabel {
+	margin-top: 16px;
+	font-size: 58px;
+	width: 55%;
+}
+.aho-label1 {
+	font-size: 46px;
+	padding-top: 20px;
+}
+.aho-label2 {
+	padding-top: 20px;
+	font-size: 50px;
+}
+.aho-panel1 {
+	box-shadow: 5px 8.66px 10px 0px rgba(0, 0, 0, 0.078);
+	margin-top: 4px;
+	margin-bottom: 4px;
+	height: 98px;
+	width: 100%;
+}
+.aho-panel2 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 90px;
+}
+.aho-panel3 {
+	height: 73px;
+}
+.aho-markingBlankPanel {
+	height: 105px;
+}
+.aho-autoExtendingTextArea {
+	font-size: 44px;
+}
+.aho-textbox1 {
+	margin-top: 18px;
+	font-size: 46px;
+}
+.aho-markingImg {
+	height: 92%;
+}
+.gwt-Tree {
+	zoom: 2.75 !important;
+}
+}
+
+@media print {
+body {
+	font-size: 12px;
+}
+.aho-label1 {
+	font-size: 14px;
+}
+.aho-label2 {
+	font-size: 16px;
+}
+
+@page {
+}
+
+}

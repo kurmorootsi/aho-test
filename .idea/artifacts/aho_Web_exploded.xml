@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="aho:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/aho_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="aho/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="aho" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="appengine-gcs-client-0.7.jar" module-name="aho" />
+          <element id="library" level="module" name="poi-3.17.jar" module-name="aho" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="appengine-java-sdk-1.9">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/endpoints/javadoc" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/javadoc" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/remoteapi/javadoc" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/spi/javadoc" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/testing/javadoc" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/docs/tools/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/guestbook/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/helloorm2/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/helloorm/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/helloservers/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/helloxmpp/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/jdoexamples/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/mediastore/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/new_project_template/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/shardedcounter/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/sticky/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/taskengine/src" />
+      <root url="file://$USER_HOME$/Documents/appengine-java-sdk-1.9.63/demos/taskqueueexamples/src" />
+    </SOURCES>
+  </library>
+</component>

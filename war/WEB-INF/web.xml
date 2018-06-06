@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.elektrimasinad.aho.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/aho/greet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>deviceTreeServlet</servlet-name>
+    <servlet-class>com.elektrimasinad.aho.server.DeviceTreeServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>deviceTreeServlet</servlet-name>
+    <url-pattern>/devicecard/deviceTree</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>deviceTreeServlet</servlet-name>
+    <url-pattern>/aho/deviceTree</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>deviceTreeServlet</servlet-name>
+    <url-pattern>/raports/deviceTree</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>deviceTreeServlet</servlet-name>
+    <url-pattern>/raport/deviceTree</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>fileUploadServlet</servlet-name>
+    <servlet-class>com.elektrimasinad.aho.server.FileUploadServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>fileUploadServlet</servlet-name>
+    <url-pattern>/fileUpload/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>raportServlet</servlet-name>
+    <servlet-class>com.elektrimasinad.aho.server.RaportServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>raportServlet</servlet-name>
+    <url-pattern>/getRaport/*</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
