@@ -7,7 +7,7 @@
   <!-- Parent POM defines common plugins and properties. -->
   <parent>
     <groupId>com.google.cloud.samples</groupId>
-    <artifactId>war</artifactId>
+    <artifactId>shared-configuration</artifactId>
     <version>1.0.1</version>
    </parent>
   <properties>
