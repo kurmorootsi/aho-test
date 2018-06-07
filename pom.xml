@@ -3,11 +3,11 @@
   <packaging>war</packaging>
   <version>1.0</version>
   <groupId>com.google.appengine.demos</groupId>
-  <artifactId>appengine-try-java</artifactId>
+  <artifactId>war</artifactId>
   <!-- Parent POM defines common plugins and properties. -->
   <parent>
     <groupId>com.google.cloud.samples</groupId>
-    <artifactId>shared-configuration</artifactId>
+    <artifactId>war</artifactId>
     <version>1.0.1</version>
    </parent>
   <properties>
@@ -63,7 +63,7 @@
     </dependency>
   </dependencies>
   <build>
-    <outputDirectory>target/${project.artifactId}/WEB-INF/classes</outputDirectory>
+    <outputDirectory>war/WEB-INF/classes</outputDirectory>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -74,7 +74,7 @@
           <webResources>
             <!-- in order to interpolate version from pom into appengine-web.xml -->
             <resource>
-              <directory>${basedir}/src/main/webapp/WEB-INF</directory>
+              <directory>${basedir}/war/WEB-INF</directory>
               <filtering>true</filtering>
               <targetPath>WEB-INF</targetPath>
             </resource>
