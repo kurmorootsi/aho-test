@@ -75,7 +75,7 @@
             <!-- in order to interpolate version from pom into appengine-web.xml -->
             <resource>
               <directory>${basedir}/war/WEB-INF</directory>
-              <filtering>true</filtering>
+              <filtering>false</filtering>
               <targetPath>WEB-INF</targetPath>
             </resource>
           </webResources>
